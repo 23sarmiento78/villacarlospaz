@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios Profesionales de Mantenimiento</title>
+    <link rel="stylesheet" href="estilos_css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0-alpha1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.2/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.0/dist/sweetalert2.min.css" rel="stylesheet">
+    <!-- Meta Descriptions -->
+    <meta name="description" content="Prestación de servicios de mantenimiento de alta calidad, incluyendo limpieza de tanque, electricidad, protección de balcones, pintura, albañilería, carpintería, plomería y gas, limpieza de piletas y poda de jardines y pasto. Consultas sin costo.">
+    <!-- Meta Keywords -->
+    <meta name="keywords" content="servicios de mantenimiento, limpieza de tanque, electricidad, protección de balcones, pintura, albañilería, carpintería, plomería, gas, limpieza de piletas, poda de jardines, consultas sin costo">
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Servicios Profesionales de Mantenimiento">
+    <meta property="og:description" content="Proveemos servicios de mantenimiento de primera calidad, abarcando limpieza de tanque, electricidad, protección de balcones, pintura, albañilería, carpintería, plomería y gas, limpieza de piletas y poda de jardines y pasto. Consultas sin costo.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.ejemplo.com">
+    <meta property="og:image" content="https://www.ejemplo.com/imagen.jpg">
+    <meta property="og:locale" content="es_AR">
+</head>
+
+<body>
+    <header>
+        <header class="main-header">
+            <nav class="navbar navbar-expand-lg fixed-top">
+              <div class="container">
+                <div class="navbar-brand-wrapper">
+                  <a class="navbar-brand" href="/">
+                  
+                  </a>
+                </div>
+                
+                <!-- Botón hamburguesa -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon">
+                    <i class="bi bi-list"></i>
+                  </span>
+                </button>
+                
+                <!-- Menú colapsable -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ms-auto">
+                    <!--<li class="nav-item">
+                      <a class="nav-link active" href="index.html">Inicio</a>
+                    </li>-->
+                    <li class="nav-item">
+                      <a class="nav-link" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="https://wa.link/6t7cxa" class="nav-link contact-btn">
+                        <i class="bi bi-telephone-fill"></i> Cotizar ahora
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+        
+            <!-- Hero Section con Carrusel -->
+            <section class="hero-section">
+              <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="fotos/villa_carlos_paz.webp" class="d-block w-100" alt="Soluciones Hidráulicas">
+                    <div class="carousel-overlay"></div>
+                    <div class="carousel-content">
+                      <div class="carousel-text-wrapper">
+                        <div data-sb-object-id="hero">
+                          <h1 class="hero-title" data-sb-field-path="title">Reparaciones instantaneas<br>de Alta Calidad</h1>
+                          <p class="hero-subtitle" data-sb-field-path="subtitle">Expertos en Mantenimiento, mas de 10 años de experiencia</p>
+                        </div>
+                        <div class="hero-buttons" data-aos="fade-up" data-aos-delay="400">
+                          <a href="#contacto" class="btn btn-primary btn-lg hero-btn">
+                            Solicitar Cotización <i class="bi bi-arrow-right"></i>
+                          </a>
+                         
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </header>
+
+    </header>
+    <main>
+
+      <!-- Formulario -->
+<div class="contact-section" id="contacto">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 col-md-10">
+        <div class="contact-header text-center mb-4" data-aos="fade-up" style="color: black;">
+          <h2 class="section-title text-black" >Solicita tu Cotización</h2>
+          <p class="section-subtitle text-light">Déjanos tus datos y nos pondremos en contacto contigo</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <div class="contact-form-wrapper" data-aos="fade-up" data-aos-delay="200">
+          <form action="https://formspree.io/f/xovvoele" method="POST" class="modern-form">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <div class="form-floating">
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Nombre y Apellido" required>
+                    <label for="name"><i class="bi bi-person"></i> Nombre y Apellido</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <div class="form-floating">
+                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="Número de Teléfono" required>
+                    <label for="phone"><i class="bi bi-telephone"></i> Número de Teléfono</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <div class="form-floating">
+                <input type="email" class="form-control" id="email" name="email" placeholder="correo@ejemplo.com" required>
+                <label for="email"><i class="bi bi-envelope"></i> Correo Electrónico</label>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <div class="form-floating">
+                <textarea class="form-control custom-textarea" id="message" name="message" placeholder="Tu mensaje" required></textarea>
+                <label for="message"><i class="bi bi-chat-text"></i> ¿En qué podemos ayudarte?</label>
+              </div>
+            </div>
+            
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary btn-lg submit-btn">
+                Enviar Mensaje <i class="bi bi-send"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+    <script>
+      const form = document.querySelector('.modern-form');
+      const submitBtn = form.querySelector('button[type="submit"]');
+      const originalBtnText = submitBtn.innerHTML;
+
+      form.addEventListener('submit', function(e) {
+        // Cambiar el texto del botón mientras se envía
+        submitBtn.innerHTML = '<i class="bi bi-hourglass-split"></i> Enviando...';
+        submitBtn.disabled = true;
+
+        // Mostrar mensaje de éxito después del envío
+        setTimeout(() => {
+          Swal.fire({
+            icon: 'success',
+            title: '¡Mensaje Enviado!',
+            text: 'Nos pondremos en contacto contigo pronto.',
+            confirmButtonColor: '#0d6efd'
+          });
+          
+          // Restaurar el botón después de mostrar el mensaje
+          submitBtn.innerHTML = originalBtnText;
+          submitBtn.disabled = false;
+        }, 2000);
+      });
+    </script>
+
+<div class="container">
+  <!-- Mapa en la parte superior -->
+  <div class="row mb-4">
+    <div class="col-12">
+      <h5 class="text-center mb-3" style=" color: rgb(255, 255, 255)">Nuestra Ubicación</h5>
+      <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27241.7414729746!2d-64.5169152!3d-31.408128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d661aa23965a1%3A0x86d90d025b0efe34!2sColinas%2C%20X5152%20Villa%20Carlos%20Paz%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1740611606272!5m2!1ses-419!2sar"
+         width="1200" 
+         height="450" 
+         style="border:0;" 
+         allowfullscreen="" 
+         loading="lazy" 
+         referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sección Sobre Nosotros -->
+  <section class="about-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-header text-center mb-5" data-aos="fade-up">
+          <h2 class="text-dark">Nuestra Empresa</h2>
+          <div class="divider"></div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row align-items-center">
+      <div class="col-lg-6" data-aos="zoom-in">
+        <div class="custom-card-image" style="height: 300px;">
+          <img src="fotos/LJ-removebg-preview.png"  alt="Imagen de la empresa" class="img-fluid rounded">
+        </div>
+      </div>
+      
+      <div class="col-lg-6" data-aos="fade-left">
+        <div class="custom-card-body">
+          <h3 class="custom-card-title">Trayectoria y Experiencia</h3>
+          <p class="custom-card-text">
+            Con una sólida trayectoria en el sector de mantenimiento y reparaciones, V+J Reparaciones se destaca por su excelencia y compromiso con la calidad. Nuestra misión es ofrecer servicios profesionales en limpieza de tanque, electricidad, protección de balcones, pintura, albañilería, carpintería, plomería y gas, limpieza de piletas, y poda de jardines y pasto. Nos enorgullece brindar soluciones innovadoras y eficientes, asegurando la satisfacción total de nuestros clientes y manteniendo altos estándares de calidad. Con consultas gratuitas, nos dedicamos a superar las expectativas y a construir relaciones duraderas con nuestros clientes.
+          </p>
+          <div class="card-features">
+            <div class="feature-item">
+              <i class="bi bi-check-circle-fill"></i>
+              <span>Instalación Profesional</span>
+            </div>
+            <div class="feature-item">
+              <i class="bi bi-trophy-fill"></i>
+              <span>Alta Calidad Garantizada</span>
+            </div>
+            <div class="feature-item">
+              <i class="bi bi-tools"></i>
+              <span>Servicio Especializado</span>
+            </div>
+          </div>
+          <div class="card-cta">
+            <a href="#contacto" class="btn btn-primary">
+              <i class="bi bi-envelope"></i> Contactar Ahora
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+  <!-- Agregar el script de Bootstrap para el menú desplegable -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  // Inicializar AOS
+  AOS.init({
+    duration: 1000,
+    once: true,
+    offset: 100
+  });
+
+  // Control de visibilidad del navbar
+  let lastScrollTop = 0;
+  const navbar = document.querySelector('.navbar');
+  const scrollThreshold = 100; // Píxeles a scrollear antes de ocultar
+
+  window.addEventListener('scroll', () => {
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    
+    // Ocultar/mostrar después del threshold
+    if (scrollTop > scrollThreshold) {
+      if (scrollTop > lastScrollTop) {
+        // Scroll hacia abajo
+        navbar.classList.add('navbar-hidden');
+      } else {
+        // Scroll hacia arriba
+        navbar.classList.remove('navbar-hidden');
+      }
+    } else {
+      // Siempre mostrar en la parte superior
+      navbar.classList.remove('navbar-hidden');
+    }
+    
+    lastScrollTop = scrollTop;
+  });
+</script>
+ </main>
+    <footer class="footer-section">
+        <div class="container">
+          <div class="footer-content">
+            <div class="row">
+              <!-- Logo y Descripción -->
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <div class="footer-brand">
+                  <span class="brand-text">F+J Reparaciones | </span>
+                  <span class="brand-subtitle">Servicios de Mantenimiento</span>
+                </div>
+                <p class="footer-description">
+                    Expertos en Mantenimiento, mas de 10 años de experiencia
+                </p>
+              </div>
+      
+              <!-- Información de Contacto -->
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <h5 class="footer-title">Contacto</h5>
+                <ul class="footer-contact-list">
+                  <li>
+                    <i class="bi bi-telephone-fill"></i>
+                    <div class="contact-info">
+                      <span>Principal:</span>
+                      <a href="tel:+584141344705">+54 1159987574</a>
+                    </div>
+                  </li>
+                  <li>
+                    <i class="bi bi-telephone-fill"></i>
+                    <div class="contact-info">
+                      <span>secundario:</span>
+                      <a href="tel:+584241952668">+55 3541209282</a>
+                    </div>
+                  </li>
+                  <li>
+                    <i class="bi bi-envelope-fill"></i>
+                    <div class="contact-info">
+                      <a href="mailto:ferre.savzla@gmail.com">gabinchy71@hotmail.com</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+      
+              <!-- Ubicación -->
+              <div class="col-lg-4">
+                <h5 class="footer-title">Ubicación</h5>
+                <div class="footer-address">
+                  <i class="bi bi-geo-alt-fill"></i>
+                  <p>
+                Argentina
+                Cordoba, villa carlos paz
+                barrio colinas
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+      
+          <!-- Línea divisoria -->
+          <div class="footer-divider"></div>
+      
+          <!-- Copyright -->
+          <div class="footer-bottom">
+            <p class="copyright">© 2025 V+J Reparaciones. Todos los derechos reservados.</p>
+          </div>
+        </div>
+      </footer>
+      <!-- Enlazar archivos JavaScript -->
+    <script src="js/navigation.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="node_modules\bootstrap\dist\js\bootstrap.bundle.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+</body>
+</html>

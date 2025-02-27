@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios de Mantenimiento</title>
+    <link rel="stylesheet" href="estilos_css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" rel="stylesheet">
+    <!-- Meta titulo -->
+     <meta name="title" content="Servicios de Mantenimiento">
+    <!-- Meta Descriptions -->
+    <meta name="description" content="Servicios de mantenimiento de alta calidad en limpieza de tanque, electricidad, protección de balcones, pintura, albañilería, carpintería, plomería y gas, limpieza de piletas, y poda de jardines y pasto. Consultas gratis.">
+    <!-- Meta Keywords -->
+    <meta name="keywords" content="mantenimiento, limpieza de tanque, electricidad, protección de balcones, pintura, albañilería, carpintería, plomería, gas, limpieza de piletas, poda de jardines, consultas gratis">
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Servicios de Mantenimiento - Alta Calidad y Experiencia">
+    <meta property="og:description" content="Ofrecemos servicios de mantenimiento de alta calidad, incluyendo limpieza de tanque, electricidad, protección de balcones, pintura, albañilería, carpintería, plomería y gas, limpieza de piletas, y poda de jardines y pasto. Consultas gratis.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.tusitio.com">
+    <meta property="og:image" content="https://www.tusitio.com/imagen.jpg">
+    <meta property="og:locale" content="es_AR">
+</head>
+
+<body>
+    <header>
+        <header class="main-header">
+            <nav class="navbar navbar-expand-lg fixed-top">
+              <div class="container">
+                <div class="navbar-brand-wrapper">
+                  <a class="navbar-brand" href="/">
+                  
+                  </a>
+                </div>
+                
+                <!-- Botón hamburguesa -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon">
+                    <i class="bi bi-list"></i>
+                  </span>
+                </button>
+                
+                <!-- Menú colapsable -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ms-auto">
+                    <!--<li class="nav-item">
+                      <a class="nav-link active" href="index.html">Inicio</a>
+                    </li>-->
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="https://wa.link/6t7cxa" class="nav-link contact-btn">
+                        <i class="bi bi-telephone-fill"></i> Cotizar ahora
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+        
+            <!-- Hero Section con Carrusel -->
+            <section class="hero-section">
+              <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="fotos/villa_carlos_paz.webp" class="d-block w-100" alt="Soluciones Hidráulicas">
+                    <div class="carousel-overlay"></div>
+                    <div class="carousel-content">
+                      <div class="carousel-text-wrapper">
+                        <div data-sb-object-id="hero">
+                          <h1 class="hero-title" data-sb-field-path="title">Nuestros mejores servicios<br>Variedad y Profesionalismo</h1>
+                          <p class="hero-subtitle" data-sb-field-path="subtitle">Tenemos una amplia gama de servicios de mantenimiento para satisfacer todas tus necesidades</p>
+                        </div>
+                        <div class="hero-buttons" data-aos="fade-up" data-aos-delay="400">
+                          <a href="#contacto" class="btn btn-primary btn-lg hero-btn">
+                            Solicitar Cotización <i class="bi bi-arrow-right"></i>
+                          </a>
+                         
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </header>
+
+    </header>
+    <main>        
+        <!-- Sección de Servicios -->
+        <section class="services-section py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mb-4">
+                        <h2 class="section-title">Nuestros Servicios</h2>
+                        <p class="section-subtitle">Ofrecemos una amplia gama de servicios de mantenimiento para satisfacer todas tus necesidades</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 mb-4" data-aos="fade-up">
+                        <div class="service-card p-4 text-center">
+                            <i class="bi bi-droplet service-icon"></i>
+                            <h5 class="service-title">Limpieza de Tanque</h5>
+                            <p class="service-description">Servicio profesional de limpieza de tanques para garantizar agua limpia y segura.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service-card p-4 text-center">
+                            <i class="bi bi-lightning service-icon"></i>
+                            <h5 class="service-title">Electricidad</h5>
+                            <p class="service-description">Instalaciones y reparaciones eléctricas realizadas por expertos.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-card p-4 text-center">
+                            <i class="bi bi-shield-lock service-icon"></i>
+                            <h5 class="service-title">Protección de Balcones</h5>
+                            <p class="service-description">Soluciones de protección para balcones, garantizando seguridad y estética.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service-card p-4 text-center">
+                            <i class="bi bi-brush service-icon"></i>
+                            <h5 class="service-title">Pintura</h5>
+                            <p class="service-description">Servicios de pintura profesional para interiores y exteriores.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="400">
+                        <div class="service-card p-4 text-center">
+                            <i class="bi bi-hammer service-icon"></i>
+                            <h5 class="service-title">Albañilería</h5>
+                            <p class="service-description">Trabajos de albañilería para construcciones y reparaciones.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="500">
+                        <div class="service-card p-4 text-center">
+                            <i class="bi bi-rulers service-icon"></i>
+                            <h5 class="service-title">Carpintería</h5>
+                            <p class="service-description">Servicios de carpintería para muebles y estructuras de madera.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="600">
+                        <div class="service-card p-4 text-center">
+                            <i class="bi bi-wrench service-icon"></i>
+                            <h5 class="service-title">Plomería y Gas</h5>
+                            <p class="service-description">Instalaciones y reparaciones de plomería y gas.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="700">
+                        <div class="service-card p-4 text-center">
+                            <i class="bi bi-water service-icon"></i>
+                            <h5 class="service-title">Limpieza de Pileta</h5>
+                            <p class="service-description">Mantenimiento y limpieza de piletas para un agua cristalina.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="800">
+                        <div class="service-card p-4 text-center">
+                            <i class="bi bi-tree service-icon"></i>
+                            <h5 class="service-title">Poda de Jardines y Pasto</h5>
+                            <p class="service-description">Servicios de jardinería para mantener tus áreas verdes impecables.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Descripción de Servicios -->
+        <section class="services-description-section py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mb-4">
+                        <h2 class="section-title">Descripción de Servicios</h2>
+                        <p class="section-subtitle">Conoce más sobre cada uno de nuestros servicios</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <h5 class="service-title">Limpieza de Tanque</h5>
+                        <p class="service-description">Nuestro servicio de limpieza de tanques garantiza que el agua que consumes esté libre de impurezas y contaminantes. Utilizamos técnicas avanzadas y productos seguros para una limpieza efectiva.</p>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <h5 class="service-title">Electricidad</h5>
+                        <p class="service-description">Ofrecemos servicios de instalación y reparación eléctrica realizados por profesionales certificados. Garantizamos seguridad y eficiencia en todos nuestros trabajos eléctricos.</p>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <h5 class="service-title">Protección de Balcones</h5>
+                        <p class="service-description">Instalamos sistemas de protección para balcones que combinan seguridad y estética. Nuestros productos son duraderos y resistentes a las condiciones climáticas.</p>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <h5 class="service-title">Pintura</h5>
+                        <p class="service-description">Realizamos trabajos de pintura para interiores y exteriores, utilizando materiales de alta calidad para asegurar un acabado perfecto y duradero.</p>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <h5 class="service-title">Albañilería</h5>
+                        <p class="service-description">Nuestros servicios de albañilería incluyen construcciones y reparaciones. Contamos con un equipo de expertos que garantizan trabajos de alta calidad y durabilidad.</p>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <h5 class="service-title">Carpintería</h5>
+                        <p class="service-description">Ofrecemos servicios de carpintería para la fabricación y reparación de muebles y estructuras de madera. Trabajamos con precisión y atención al detalle.</p>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <h5 class="service-title">Plomería y Gas</h5>
+                        <p class="service-description">Realizamos instalaciones y reparaciones de sistemas de plomería y gas. Nuestro equipo está capacitado para manejar cualquier tipo de proyecto, garantizando seguridad y eficiencia.</p>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <h5 class="service-title">Limpieza de Pileta</h5>
+                        <p class="service-description">Ofrecemos servicios de mantenimiento y limpieza de piletas para asegurar que el agua esté siempre cristalina y libre de algas y bacterias.</p>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <h5 class="service-title">Poda de Jardines y Pasto</h5>
+                        <p class="service-description">Nuestros servicios de jardinería incluyen la poda de jardines y pasto para mantener tus áreas verdes en perfecto estado. Utilizamos herramientas y técnicas adecuadas para cada tipo de planta.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Gráfica -->
+        <section class="services-chart-section py-5" style="background-color: aliceblue; color: black;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mb-4">
+                        <h2 class="section-title">Ámbitos Profesionales</h2>
+                        <p class="section-subtitle">Descubre en qué servicios somos más destacados</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <canvas id="servicesChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-section">
+        <div class="container">
+          <div class="footer-content">
+            <div class="row">
+              <!-- Logo y Descripción -->
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <div class="footer-brand">
+                  <span class="brand-text">F+J Reparaciones | </span>
+                  <span class="brand-subtitle">Servicios de Mantenimiento</span>
+                </div>
+                <p class="footer-description">
+                    Expertos en Mantenimiento, mas de 10 años de experiencia
+                </p>
+              </div>
+      
+              <!-- Información de Contacto -->
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <h5 class="footer-title">Contacto</h5>
+                <ul class="footer-contact-list">
+                  <li>
+                    <i class="bi bi-telephone-fill"></i>
+                    <div class="contact-info">
+                      <span>Principal:</span>
+                      <a href="tel:+584141344705">+54 1159987574</a>
+                    </div>
+                  </li>
+                  <li>
+                    <i class="bi bi-telephone-fill"></i>
+                    <div class="contact-info">
+                      <span>secundario:</span>
+                      <a href="tel:+584241952668">+55 3541209282</a>
+                    </div>
+                  </li>
+                  <li>
+                    <i class="bi bi-envelope-fill"></i>
+                    <div class="contact-info">
+                      <a href="mailto:ferre.savzla@gmail.com">gabinchy71@hotmail.com</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+      
+              <!-- Ubicación -->
+              <div class="col-lg-4">
+                <h5 class="footer-title">Ubicación</h5>
+                <div class="footer-address">
+                  <i class="bi bi-geo-alt-fill"></i>
+                  <p>
+                Argentina
+                Cordoba, villa carlos paz
+                barrio colinas
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Línea divisoria -->
+          <div class="footer-divider"></div>
+      
+          <!-- Copyright -->
+          <div class="footer-bottom">
+            <p class="copyright">© 2025 V+J Reparaciones. Todos los derechos reservados.</p>
+          </div>
+        </div>
+      </footer>
+      <!-- Enlazar archivos JavaScript -->
+    <script src="js/navigation.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+  // Configuración de la gráfica
+  const ctx = document.getElementById('servicesChart').getContext('2d');
+  const gradient = ctx.createLinearGradient(0, 0, 0, 400);
+  gradient.addColorStop(0, 'rgba(13, 110, 253, 0.5)');
+  gradient.addColorStop(1, 'rgba(13, 110, 253, 0.1)');
+
+  const servicesChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ['Limpieza de Tanque', 'Electricidad', 'Protección de Balcones', 'Pintura', 'Albañilería', 'Carpintería', 'Plomería y Gas', 'Limpieza de Pileta', 'Poda de Jardines y Pasto'],
+      datasets: [{
+        label: 'Nivel de Profesionalismo',
+        data: [95, 80, 85, 90, 95, 75, 80, 70, 65],
+        backgroundColor: gradient,
+        borderColor: 'rgba(13, 110, 253, 1)',
+        borderWidth: 2,
+        hoverBackgroundColor: 'rgba(13, 110, 253, 0.7)',
+        hoverBorderColor: 'rgba(13, 110, 253, 1)',
+        borderRadius: 10,
+        barPercentage: 0.6,
+        categoryPercentage: 0.5
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: {
+          display: false
+        },
+        tooltip: {
+          backgroundColor: 'rgba(0, 0, 0, 0.7)',
+          titleColor: '#fff',
+          bodyColor: '#fff',
+          borderColor: 'rgba(13, 110, 253, 1)',
+          borderWidth: 1
+        }
+      },
+      scales: {
+        x: {
+          grid: {
+            display: false
+          },
+          ticks: {
+            color: '#333',
+            font: {
+              size: 14,
+              weight: 'bold'
+            }
+          }
+        },
+        y: {
+          grid: {
+            color: 'rgba(200, 200, 200, 0.2)'
+          },
+          ticks: {
+            color: '#333',
+            font: {
+              size: 14,
+              weight: 'bold'
+            },
+            beginAtZero: true
+          }
+        }
+      }
+    }
+  });
+</script>
+</body>
+</html>
