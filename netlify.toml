@@ -1,0 +1,7 @@
+[build]
+  publish = "public" # Directorio que contiene los archivos estáticos para desplegar
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
