@@ -950,7 +950,7 @@ main {
   border: none;
   padding: 0.5rem;
   color: #000;
-  background: transparent;
+  background: white;
 }
 
 .navbar-toggler:focus {
