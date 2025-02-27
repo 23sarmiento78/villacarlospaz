@@ -999,7 +999,7 @@ main {
   }
 
   .nav-link:hover {
-    background: rgba(0, 0, 0, 0.05);
+    background: rgb(255, 255, 255);
     color: #0a58ca;
   }
 
