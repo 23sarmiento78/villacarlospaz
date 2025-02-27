@@ -7,11 +7,10 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://villacarlospazrp.netlify.app/servicios</loc>
+    <loc>https://villacarlospazrp.netlify.app/servicios.html</loc>
     <lastmod>2025-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
- 
   <!-- Agrega más URLs según sea necesario -->
 </urlset>
